@@ -1,0 +1,30 @@
+.filterContainer{
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    background-color: #fff;
+    height: 250px;
+    width: 200px;
+    z-index: 99999;
+    padding: 10px;
+    border: 1px solid #f05a5b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filterContainer p {
+    text-align: center;
+    font-size: 18px;
+    color: #f05a5b;
+    margin-bottom: 20px;
+}
+
+.checkContainer {
+    display: flex;
+}
+
+.formControl {
+    flex: 1;
+}
